@@ -5,14 +5,63 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_black</sprite>
+    <sprite>sprites\spr_knife_down</sprite>
+    <sprite>sprites\spr_knife_left</sprite>
+    <sprite>sprites\spr_knife_right</sprite>
+    <sprite>sprites\spr_knife_up</sprite>
+    <sprite>sprites\spr_koala_down</sprite>
+    <sprite>sprites\spr_koala_left</sprite>
+    <sprite>sprites\spr_koala_right</sprite>
+    <sprite>sprites\spr_koala_up</sprite>
+    <sprite>sprites\spr_stand_down</sprite>
+    <sprite>sprites\spr_stand_left</sprite>
+    <sprite>sprites\spr_stand_right</sprite>
+    <sprite>sprites\spr_stand_up</sprite>
+    <sprite>sprites\spr_swing</sprite>
+    <sprite>sprites\spr_sword</sprite>
+    <sprite>sprites\sprite_zombie</sprite>
+    <sprite>sprites\spr_mummy_down</sprite>
+    <sprite>sprites\spr_mummy_left</sprite>
+    <sprite>sprites\spr_mummy_right</sprite>
+    <sprite>sprites\spr_mummy_up</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\back_tiles</background>
+    <background>background\background</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_knife_tut.gml</script>
+    <script>scripts\scr_melee_after.gml</script>
+    <script>scripts\scr_melee_tut1.gml</script>
+    <script>scripts\scr_melee_tut2.gml</script>
+    <script>scripts\scr_behavior_total.gml</script>
+    <script>scripts\scr_behavior_towards.gml</script>
+    <script>scripts\scr_behavior_walking.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <object>objects\obj_controller</object>
+    <object>objects\obj_enemy_parent</object>
+    <object>objects\obj_exit_tut1</object>
+    <object>objects\obj_exit_tut2</object>
+    <object>objects\obj_exit_tut3</object>
+    <object>objects\obj_knife_armed</object>
+    <object>objects\obj_knife_ground</object>
+    <object>objects\obj_player_sword</object>
+    <object>objects\obj_player_weaponless</object>
+    <object>objects\obj_sample_enemy</object>
+    <object>objects\obj_sword</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_enemy_prototype</object>
+    <object>objects\obj_mummy</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\room_tutorial1</room>
+    <room>rooms\room_tutorial2</room>
+    <room>rooms\room_tutorial3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
