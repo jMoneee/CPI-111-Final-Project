@@ -22,6 +22,10 @@
     <sprite>sprites\spr_swing</sprite>
     <sprite>sprites\spr_sword</sprite>
     <sprite>sprites\sprite_zombie</sprite>
+    <sprite>sprites\spr_mummy_down</sprite>
+    <sprite>sprites\spr_mummy_left</sprite>
+    <sprite>sprites\spr_mummy_right</sprite>
+    <sprite>sprites\spr_mummy_up</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_tiles</background>
@@ -33,6 +37,9 @@
     <script>scripts\scr_melee_after.gml</script>
     <script>scripts\scr_melee_tut1.gml</script>
     <script>scripts\scr_melee_tut2.gml</script>
+    <script>scripts\scr_behavior_total.gml</script>
+    <script>scripts\scr_behavior_towards.gml</script>
+    <script>scripts\scr_behavior_walking.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -48,6 +55,8 @@
     <object>objects\obj_sample_enemy</object>
     <object>objects\obj_sword</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_enemy_prototype</object>
+    <object>objects\obj_mummy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_tutorial1</room>
