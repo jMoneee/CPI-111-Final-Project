@@ -37,26 +37,20 @@
     <script>scripts\scr_melee_after.gml</script>
     <script>scripts\scr_melee_tut1.gml</script>
     <script>scripts\scr_melee_tut2.gml</script>
-    <script>scripts\scr_behavior_total.gml</script>
-    <script>scripts\scr_behavior_towards.gml</script>
-    <script>scripts\scr_behavior_walking.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_player</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_enemy_parent</object>
-    <object>objects\obj_exit_tut1</object>
-    <object>objects\obj_exit_tut2</object>
-    <object>objects\obj_exit_tut3</object>
+    <object>objects\obj_exit</object>
     <object>objects\obj_knife_armed</object>
     <object>objects\obj_knife_ground</object>
     <object>objects\obj_player_sword</object>
-    <object>objects\obj_player_weaponless</object>
+    <object>objects\obj_player</object>
     <object>objects\obj_sample_enemy</object>
     <object>objects\obj_sword</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_enemy_prototype</object>
-    <object>objects\obj_mummy</object>
+    <object>objects\obj_player_parent</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_tutorial1</room>

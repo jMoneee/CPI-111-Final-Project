@@ -92,14 +92,9 @@
     <instance objName="obj_wall" x="120" y="0" name="inst_3BADBDE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="160" y="0" name="inst_AB74F8A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="480" y="360" name="inst_5109DB10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player_weaponless" x="200" y="200" name="inst_EC3A40A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="200" y="200" name="inst_EC3A40A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="200" y="0" name="inst_831E8E0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit_tut1" x="240" y="0" name="inst_1BF27D4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mummy" x="200" y="120" name="inst_127AC333" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mummy" x="400" y="120" name="inst_F036CEBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mummy" x="360" y="240" name="inst_81455350" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mummy" x="280" y="120" name="inst_8D2BE410" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mummy" x="80" y="200" name="inst_4559E471" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="240" y="0" name="inst_DA844FE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="0" y="0" w="40" h="40" xo="40" yo="40" id="10000031" name="inst_047EE2A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
