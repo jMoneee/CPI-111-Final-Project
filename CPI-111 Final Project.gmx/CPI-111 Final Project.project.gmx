@@ -22,10 +22,6 @@
     <sprite>sprites\spr_swing</sprite>
     <sprite>sprites\spr_sword</sprite>
     <sprite>sprites\sprite_zombie</sprite>
-    <sprite>sprites\spr_mummy_down</sprite>
-    <sprite>sprites\spr_mummy_left</sprite>
-    <sprite>sprites\spr_mummy_right</sprite>
-    <sprite>sprites\spr_mummy_up</sprite>
     <sprite>sprites\spr_health</sprite>
     <sprite>sprites\spr_ammo</sprite>
   </sprites>
@@ -43,11 +39,11 @@
     <script>scripts\scr_behavior_towards.gml</script>
     <script>scripts\scr_behavior_walking.gml</script>
   </scripts>
-  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_enemy_parent</object>
+    <object>objects\obj_exit_parent</object>
     <object>objects\obj_exit_tut1</object>
     <object>objects\obj_exit_tut2</object>
     <object>objects\obj_exit_tut3</object>
@@ -58,8 +54,6 @@
     <object>objects\obj_sample_enemy</object>
     <object>objects\obj_sword</object>
     <object>objects\obj_wall</object>
-    <object>objects\obj_enemy_prototype</object>
-    <object>objects\obj_mummy</object>
     <object>objects\obj_pickup_health</object>
     <object>objects\obj_pickup_ammo</object>
   </objects>
