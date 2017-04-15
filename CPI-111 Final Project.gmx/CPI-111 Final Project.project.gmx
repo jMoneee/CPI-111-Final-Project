@@ -26,6 +26,8 @@
     <sprite>sprites\spr_mummy_left</sprite>
     <sprite>sprites\spr_mummy_right</sprite>
     <sprite>sprites\spr_mummy_up</sprite>
+    <sprite>sprites\spr_health</sprite>
+    <sprite>sprites\spr_ammo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_tiles</background>
@@ -41,6 +43,7 @@
     <script>scripts\scr_behavior_towards.gml</script>
     <script>scripts\scr_behavior_walking.gml</script>
   </scripts>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_controller</object>
@@ -57,8 +60,11 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_enemy_prototype</object>
     <object>objects\obj_mummy</object>
+    <object>objects\obj_pickup_health</object>
+    <object>objects\obj_pickup_ammo</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_test</room>
     <room>rooms\room_tutorial1</room>
     <room>rooms\room_tutorial2</room>
     <room>rooms\room_tutorial3</room>
