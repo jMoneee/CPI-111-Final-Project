@@ -34,6 +34,32 @@ walkingSpeed = 2;
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>202</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_change_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>obj_sample_enemy</object>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -51,9 +77,15 @@ walkingSpeed = 2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_angle = point_direction(x, y, obj_player.x, obj_player.y);
+            <string>if(global.isTimeStopped == 0){
 
-mp_potential_step(obj_player.x ,obj_player.y , walkingSpeed, true);
+    image_angle = point_direction(x, y, obj_player.x, obj_player.y);
+
+    mp_potential_step(obj_player.x ,obj_player.y , walkingSpeed, true);
+}
+else{
+    image_speed = 0;
+}
 </string>
           </argument>
         </arguments>

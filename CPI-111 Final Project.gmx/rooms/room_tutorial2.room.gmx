@@ -91,13 +91,14 @@
     <instance objName="obj_wall" x="120" y="0" name="inst_3BADBDE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="160" y="0" name="inst_AB74F8A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="480" y="360" name="inst_5109DB10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player_weaponless" x="240" y="360" name="inst_EC3A40A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_weaponless" x="240" y="320" name="inst_EC3A40A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="200" y="0" name="inst_B647F0AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sword" x="80" y="120" name="inst_B6A70EC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sample_enemy" x="320" y="120" name="inst_B29BF8CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sample_enemy" x="240" y="240" name="inst_9707F026" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sample_enemy" x="440" y="280" name="inst_6CBE786A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit_tut2" x="240" y="0" name="inst_0EA3579A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_entrance" x="240" y="360" name="inst_86682F95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="0" y="0" w="40" h="40" xo="40" yo="40" id="10000031" name="inst_047EE2A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
