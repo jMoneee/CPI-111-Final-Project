@@ -99,6 +99,7 @@
     <instance objName="obj_player_sword" x="240" y="320" name="inst_D8C25072" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit_tut3" x="240" y="0" name="inst_FBF4BE56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_entrance" x="240" y="360" name="inst_1CB64C22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controller" x="40" y="40" name="inst_C8BA5B7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="back_tiles" x="0" y="0" w="40" h="40" xo="40" yo="40" id="10000031" name="inst_047EE2A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
