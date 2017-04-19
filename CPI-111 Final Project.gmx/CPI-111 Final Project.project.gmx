@@ -58,10 +58,10 @@
     <object>objects\obj_pickup_ammo</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_test</room>
     <room>rooms\room_tutorial1</room>
     <room>rooms\room_tutorial2</room>
     <room>rooms\room_tutorial3</room>
+    <room>rooms\room_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
