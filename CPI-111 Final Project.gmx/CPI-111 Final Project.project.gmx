@@ -24,6 +24,10 @@
     <sprite>sprites\sprite_zombie</sprite>
     <sprite>sprites\spr_health</sprite>
     <sprite>sprites\spr_ammo</sprite>
+    <sprite>sprites\spr_ladder</sprite>
+    <sprite>sprites\spr_key</sprite>
+    <sprite>sprites\spr_lock</sprite>
+    <sprite>sprites\spr_note</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_tiles</background>
@@ -56,6 +60,10 @@
     <object>objects\obj_sword</object>
     <object>objects\obj_pickup_health</object>
     <object>objects\obj_pickup_ammo</object>
+    <object>objects\obj_exit_ladder</object>
+    <object>objects\obj_key</object>
+    <object>objects\obj_lock</object>
+    <object>objects\obj_note1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_tutorial1</room>
