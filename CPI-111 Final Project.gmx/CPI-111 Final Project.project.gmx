@@ -41,6 +41,7 @@
     <script>scripts\scr_melee_after.gml</script>
     <script>scripts\scr_melee_tut1.gml</script>
     <script>scripts\scr_melee_tut2.gml</script>
+    <script>scripts\scr_sword_swing.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -70,8 +71,10 @@
     <object>objects\obj_gun</object>
     <object>objects\obj_player_gun</object>
     <object>objects\obj_player_timestop</object>
+    <object>objects\obj_enemy_bullet</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_ranged_enemies</room>
     <room>rooms\room_tutorial1</room>
     <room>rooms\room_tutorial2</room>
     <room>rooms\room_tutorial3</room>
