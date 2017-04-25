@@ -28,6 +28,8 @@
     <sprite>sprites\spr_key</sprite>
     <sprite>sprites\spr_lock</sprite>
     <sprite>sprites\spr_note</sprite>
+    <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_gun</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_tiles</background>
@@ -54,9 +56,9 @@
     <object>objects\obj_knife_armed</object>
     <object>objects\obj_knife_ground</object>
     <object>objects\obj_player_sword</object>
-    <object>objects\obj_player_timestop</object>
     <object>objects\obj_player_weaponless</object>
     <object>objects\obj_sample_enemy</object>
+    <object>objects\obj_ranged_enemy</object>
     <object>objects\obj_sword</object>
     <object>objects\obj_pickup_health</object>
     <object>objects\obj_pickup_ammo</object>
@@ -64,6 +66,10 @@
     <object>objects\obj_key</object>
     <object>objects\obj_lock</object>
     <object>objects\obj_note1</object>
+    <object>objects\obj_bullet_friendly</object>
+    <object>objects\obj_gun</object>
+    <object>objects\obj_player_gun</object>
+    <object>objects\obj_player_timestop</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_tutorial1</room>
