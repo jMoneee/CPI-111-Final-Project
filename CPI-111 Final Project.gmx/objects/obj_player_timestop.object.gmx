@@ -28,6 +28,7 @@
             <string>knife = 0;
 health = 100;
 ammo = 30;
+canBeDamaged = 0;
 </string>
           </argument>
         </arguments>
@@ -73,11 +74,11 @@ ammo = 30;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
         </arguments>
       </action>
@@ -187,11 +188,11 @@ health+= 50;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
         </arguments>
       </action>
@@ -233,7 +234,7 @@ health+= 50;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-40</string>
+            <string>-32</string>
           </argument>
         </arguments>
       </action>
@@ -271,7 +272,7 @@ health+= 50;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>4</string>
           </argument>
         </arguments>
       </action>
@@ -429,11 +430,11 @@ health+= 50;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
         </arguments>
       </action>
@@ -475,7 +476,7 @@ health+= 50;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
         </arguments>
       </action>
@@ -513,7 +514,7 @@ health+= 50;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>4</string>
           </argument>
         </arguments>
       </action>
@@ -671,11 +672,11 @@ health+= 50;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
         </arguments>
       </action>
@@ -713,7 +714,7 @@ health+= 50;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -755,7 +756,7 @@ health+= 50;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>4</string>
           </argument>
         </arguments>
       </action>
@@ -913,11 +914,11 @@ health+= 50;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>40</string>
+            <string>32</string>
           </argument>
         </arguments>
       </action>
@@ -955,7 +956,7 @@ health+= 50;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-40</string>
+            <string>-32</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -997,7 +998,7 @@ health+= 50;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>4</string>
           </argument>
         </arguments>
       </action>
@@ -1197,7 +1198,7 @@ health+= 50;
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_melee_tut2</script>
+            <script>scr_sword_swing</script>
           </argument>
           <argument>
             <kind>0</kind>

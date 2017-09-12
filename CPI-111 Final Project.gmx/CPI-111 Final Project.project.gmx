@@ -30,10 +30,15 @@
     <sprite>sprites\spr_note</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_gun</sprite>
+    <sprite>sprites\spr_sword_left</sprite>
+    <sprite>sprites\spr_sword_right</sprite>
+    <sprite>sprites\spr_sword_up</sprite>
+    <sprite>sprites\spr_sword_down</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_tiles</background>
     <background>background\background</background>
+    <background>background\tiles1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -72,13 +77,16 @@
     <object>objects\obj_player_gun</object>
     <object>objects\obj_player_timestop</object>
     <object>objects\obj_enemy_bullet</object>
+    <object>objects\obj_sword_swing</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_ranged_enemies</room>
     <room>rooms\room_tutorial1</room>
     <room>rooms\room_tutorial2</room>
     <room>rooms\room_tutorial3</room>
     <room>rooms\room_test</room>
+    <room>rooms\room_ranged_test</room>
+    <room>rooms\room_1</room>
+    <room>rooms\room_main_temp</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
